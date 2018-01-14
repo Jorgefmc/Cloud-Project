@@ -1,0 +1,15 @@
+TITULO
+
+Archivos incluidos:
+  -mapper_proyecto.py:
+    Lee los ficheros csv que existan en la misma ruta desde el año 2014 con formato (AemetYYYY-mm-dd). Estos son ficheros diarios extraídos de https://datosclima.es/Aemet2013/DescargaDatos.html.
+    Por cada año, ofrece los pares temperatura-precipitaciones correspondientes a cada estación meteorológica, por cada día.
+  -reducer_proyecto.py:
+    Recibe los datos de salida del mapper anterior y realiza los cálculos necesarios para obtener las medias de temperaturas y precipitaciones, mostrándolas por año y el total de las mismas.
+    
+    
+Funcionamiento de la aplicación:
+  - Ejecución en cadena de los archivos mapper_proyecto.py y reducer_proyecto.py.
+  - La ruta de los archivos debe contener los ficheros de datos en formato CSV (AemetYYYY-mm-dd.csv)
+  - Ejecución en Linux, con Python 2.7:
+      python mapper_proyecto.py | sort | python reducer_proyecto.py
