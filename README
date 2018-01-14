@@ -9,6 +9,7 @@ Archivos incluidos:
     
     
 Funcionamiento de la aplicación:
+  - Funciona con Python 2.7
   - Ejecución en cadena de los archivos mapper_proyecto.py y reducer_proyecto.py.
   - La ruta de los archivos debe contener los ficheros de datos en formato CSV (AemetYYYY-mm-dd.csv)
   - Ejecución en Linux, con Python 2.7:
