@@ -12,52 +12,24 @@ Para el desarrollo de la aplicación se ha utilizado mapReduce sobre Hadoop, en 
 
 Esta aplicación, no tiene ninguna interacción con el usuario como tal, es un programa, que simplemente con ejecutarlo, coge todos los ficheros .csv con un nombre especifico que existen en una carpeta, y genera los resultados con las medias anuales en otro fichero, el cual se almacena.
 
+## Otros aspectos
 
-## Diseño del codigo (Mapp Reduce)
-## Como funciona la app que se necesita y que no
-## Eficiencia
-## Que hemos aprendido 
-## Posibles mejoras
-## Que nos ha molado, que nos a costado, que hariamos diferente la proxima vez, lo mas frustrante, 
+A lo largo del desarrollo de esta aplicación hemos adquirido varios conocimientos.
+  - Utilizacion de mapReduce
+  - Programación con Python
+  - Utilizacion de servicios Cloud
+  - Usar servicio como GitHub y GitHub Pages
 
-----------------------------------------------------------------------------------------------------------------------------------------
+En visión a futuro se podrían añadir varias mejoras, a parte de las evidentes en eficiencia y similares, se podría incluir un script que transforme de forma automática del formato .xls (descargado) a .csv (utilizado por la aplicación) para facilitar el trabajo al usuario. También seria útil ampliar las funcionalidades, poder hallar medias sobre otros patrones, o permitir al usuario elegir de que año quiere las medias en concreto.
+
+Las cosas positivas que sacamos de este proyecto, es que a día de hoy las tecnologías aplicadas a Cloud están en auge permanente y haber aprendido a manejarlas al igual que a utilizar repositorios Git es un salto en nuestra preparación para más adelante. 
+
+Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a programar un poco en Python, pero el no conocer nada del lenguaje nos ha hecho ir muy lentos desarrollando la aplicación, aunque la parte más frustrante y tediosa ha sido tener que utilizar datos .csv y que los disponibles fueran todos .xls .
 
 
-## Welcome to GitHub Pages
+##Desarrolladores (usuario en GitHub)
 
-
-You can use the [editor on GitHub](https://github.com/Jorgefmc/Cloud-Project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jorgefmc/Cloud-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Carolina Martínez Pérez (CarolMaper)
+- Adrián Montero Torralbo (Montero14)
+- Javir Sesé García (JaviSese)
+- Jorge Fdez-Montes Cabanillas (Jorgefmc)
