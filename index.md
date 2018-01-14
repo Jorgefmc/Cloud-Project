@@ -1,6 +1,19 @@
+# Proyecto Cloud de medias anuales
+
+## Problema a solucionar
+## Origen de los datos
+## Diseño del codigo (Mapp Reduce)
+## Como funciona la app que se necesita y que no
+## Eficiencia
+## Que hemos aprendido 
+## Posibles mejoras
+## Que nos ha molado, que nos a costado, que hariamos diferente la proxima vez, lo mas frustrante, 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
 ## Welcome to GitHub Pages
 
-HOLA ZEBROOOO
 
 You can use the [editor on GitHub](https://github.com/Jorgefmc/Cloud-Project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
