@@ -27,7 +27,7 @@ Las cosas positivas que sacamos de este proyecto, es que a día de hoy las tecno
 Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a programar un poco en Python, pero el no conocer nada del lenguaje nos ha hecho ir muy lentos desarrollando la aplicación, aunque la parte más frustrante y tediosa ha sido tener que utilizar datos .csv y que los disponibles fueran todos .xls .
 
 
-##Desarrolladores (usuario en GitHub)
+## Desarrolladores (usuario en GitHub)
 
 - Carolina Martínez Pérez (CarolMaper)
 - Adrián Montero Torralbo (Montero14)
