@@ -2,7 +2,7 @@
 
 ## Problema y origen de los datos
 
-Existen infinidad de lugares donde encontrar las temperaturas medias diaria como [por ejemplo esta](https://datosclima.es/Aemet2013/DescargaDatos.html) que utiliza datos de AEMET, pero no es tan fácil encontrar las medias anuales, por lo cual, hemos querido proporcionar un software que nos calcule estas medias utilizando los datos ya existentes. 
+Existen infinidad de lugares donde encontrar las temperaturas medias diaria como por ejemplo, [esta](https://datosclima.es/Aemet2013/DescargaDatos.html) que utiliza datos de AEMET, pero no es tan fácil encontrar las medias anuales, por lo cual, hemos querido proporcionar un software que nos calcule estas medias utilizando los datos ya existentes. 
 
 Todos los datos utilizados para el ejemplo esta aplicación han sido extraídos de https://datosclima.es/Aemet2013/DescargaDatos.html aunque originalmente pertenecen a la AEMET. Estos han sido convertidos de formato .xls a .csv 
 
