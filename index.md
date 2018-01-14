@@ -8,9 +8,9 @@ Todos los datos utilizados para el ejemplo esta aplicación han sido extraídos 
 
 ## En relación a la aplicación
 
-Para el desarrollo de la aplicación se ha utilizado mapReduce sobre Hadoop, desarrollando en Python. Esta orientado a que pueda utilizarse con un servicio Cloud Computing ya que se utiliza gran cantidad de datos.
+Para el desarrollo de la aplicación se ha utilizado mapReduce sobre Hadoop, en Python. Esta orientado a que pueda utilizarse con un servicio Cloud Computing ya que se utiliza gran cantidad de datos.
 
-Esta aplicación, no tiene ninguna iteración con el usuario como tal, es un programa, que simplemente con ejecutarlo, coge todos los ficheros .csv con un nombre especifico que existen en una carpeta, y genera los resultados con las medias anuales en otro fichero, el cual se almacena.
+Esta aplicación, no tiene ninguna interacción con el usuario como tal, es un programa, que simplemente con ejecutarlo, coge todos los ficheros .csv con un nombre especifico que existen en una carpeta, y genera los resultados con las medias anuales en otro fichero, el cual se almacena.
 
 
 ## Diseño del codigo (Mapp Reduce)
