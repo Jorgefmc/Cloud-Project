@@ -1,9 +1,16 @@
 # Proyecto Cloud de medias anuales
 
 ## Problema y origen de los datos
+
 Existen infinidad de lugares donde encontrar las temperaturas medias diaria como [por ejemplo esta](https://datosclima.es/Aemet2013/DescargaDatos.html) que utiliza datos de AEMET, pero no es tan fácil encontrar las medias anuales, por lo cual, hemos querido proporcionar un software que nos calcule estas medias utilizando los datos ya existentes. 
 
-Todos los datos utilizados para el ejemplo esta aplicacion han sido extraidos de https://datosclima.es/Aemet2013/DescargaDatos.html aunque originalmente pertenecen a la AEMET. Estos han sido convertidos de formato .xls a .csv 
+Todos los datos utilizados para el ejemplo esta aplicación han sido extraídos de https://datosclima.es/Aemet2013/DescargaDatos.html aunque originalmente pertenecen a la AEMET. Estos han sido convertidos de formato .xls a .csv 
+
+## En relación a la aplicación
+
+Para el desarrollo de la aplicación se ha utilizado mapReduce sobre Hadoop, desarrollando en Python. Esta orientado a que pueda utilizarse con un servicio Cloud Computing ya que se utiliza gran cantidad de datos.
+
+Esta aplicación, no tiene ninguna iteración con el usuario como tal, es un programa, que simplemente con ejecutarlo, coge todos los ficheros .csv con un nombre especifico que existen en una carpeta, y genera los resultados con las medias anuales en otro fichero, el cual se almacena.
 
 
 ## Diseño del codigo (Mapp Reduce)
