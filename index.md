@@ -1,7 +1,7 @@
 # Proyecto Cloud de medias anuales
 
-## Problema:
-  Existen infinidad de lugares donde encontrar las temperaturas medias diaria como [por ejemplo esta](https://datosclima.es/Aemet2013/DescargaDatos.html) que utiliza datos de AEMET, pero no es tan fácil encontrar las medias anuales, por lo cual, hemos querido proporcionar un software que nos calcule estas medias utilizando los datos ya existentes. 
+## Problema
+    Existen infinidad de lugares donde encontrar las temperaturas medias diaria como [por ejemplo esta](https://datosclima.es/Aemet2013/DescargaDatos.html) que utiliza datos de AEMET, pero no es tan fácil encontrar las medias anuales, por lo cual, hemos querido proporcionar un software que nos calcule estas medias utilizando los datos ya existentes. 
 ## Origen de los datos
 ## Diseño del codigo (Mapp Reduce)
 ## Como funciona la app que se necesita y que no
