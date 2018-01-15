@@ -27,11 +27,12 @@ Las cosas positivas que sacamos de este proyecto, es que a día de hoy las tecno
 Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a programar un poco en Python, pero el no conocer nada del lenguaje nos ha hecho ir muy lentos desarrollando la aplicación, aunque la parte más frustrante y tediosa ha sido tener que utilizar datos .csv y que los disponibles fueran todos .xls .
 
 
-## Código y desarrolladores.
+### Código
 
 - [Mapper](https://github.com/Jorgefmc/Weather-Averages/blob/master/mapper_proyecto.py)
 - [Reducer](https://github.com/Jorgefmc/Weather-Averages/blob/master/reducer_proyecto.py)
 
+### Desarrolladores
 
 - [Carolina Martínez Pérez](https://github.com/CarolMaper)
 - [Adrián Montero Torralbo](https://github.com/Montero14)
