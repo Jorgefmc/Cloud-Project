@@ -30,7 +30,7 @@ Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a 
 
 ### Salida de datos
 <img src="/datos.png" alt="hi" class="inline"/>
-<img src="/pantallazo-1.png" alt="hi" class="inline"/>
+<img src="/Pantallazo-1.png" alt="hi" class="inline"/>
 
 ### Código
 
