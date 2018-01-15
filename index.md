@@ -29,7 +29,7 @@ Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a 
 
 ## Desarrolladores (usuario en GitHub)
 
-- [Carolina Martínez Pérez] (https://github.com/CarolMaper)
-- [Adrián Montero Torralbo] (https://github.com/Montero14)
-- [Javier Sesé García] (https://github.com/JaviSese)
-- [Jorge Fdez-Montes Cabanillas] (https://github.com/Jorgefmc)
+- [Carolina Martínez Pérez](https://github.com/CarolMaper)
+- [Adrián Montero Torralbo](https://github.com/Montero14)
+- [Javier Sesé García](https://github.com/JaviSese)
+- [Jorge Fdez-Montes Cabanillas](https://github.com/Jorgefmc)
