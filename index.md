@@ -29,7 +29,9 @@ Las cosas positivas que sacamos de este proyecto, es que a día de hoy las tecno
 Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a programar un poco en Python, pero el no conocer nada del lenguaje nos ha hecho ir muy lentos desarrollando la aplicación, aunque la parte más frustrante y tediosa ha sido tener que utilizar datos .csv y que los disponibles fueran todos .xls .
 
 ### Salida de datos
-<img src="/datos.png" alt="consola" class="inline"/>
+En las siguientes imagenes mostramos la salida de datos tanto en consola como en el log.
+<div><img src="/datos.png" alt="consola" class="inline"/>
+<p>prueba<p><div>
 <img src="/Pantallazo-1.png" alt="log" class="inline"/>
 
 ### Código
