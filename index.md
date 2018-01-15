@@ -4,7 +4,9 @@
 
 Existen infinidad de lugares donde encontrar las temperaturas medias diaria como por ejemplo, [esta](https://datosclima.es/Aemet2013/DescargaDatos.html) que utiliza datos de AEMET, pero no es tan fácil encontrar las medias anuales, por lo cual, hemos querido proporcionar un software que nos calcule estas medias utilizando los datos ya existentes. 
 
-Todos los datos utilizados para el ejemplo esta aplicación han sido extraídos de https://datosclima.es/Aemet2013/DescargaDatos.html aunque originalmente pertenecen a la AEMET. Estos han sido convertidos de formato .xls a .csv 
+Todos los datos utilizados para el ejemplo esta aplicación han sido extraídos de https://datosclima.es/Aemet2013/DescargaDatos.html aunque originalmente pertenecen a la AEMET. Estos han sido convertidos de formato .xls a .csv, con tabuladores como delimitador de campo.
+
+Partimos de diferentes columnas con la información de temperaturas mínimas, máximas, medias, rachas de viento y precipitaciones en diferentes rangos horarios recogidas por distintas estaciones meteorológicas. De estos datos nos quedamos con las precipitaciones diarias y la temperatura media recogidas por las estaciones, tratando estos datos para hallar las medias, primero diarias y, tras acumularse, anuales.
 
 ## En relación a la aplicación
 
