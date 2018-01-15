@@ -30,8 +30,8 @@ Toda parte positiva tiene su parete negativa, y es verdad que hemos aprendido a 
 
 ### Salida de datos
 En las siguientes imagenes mostramos la salida de datos tanto en consola como en el log:
-<img src="/datos.png" alt="consola" class="inline"/>
-<img src="/Pantallazo-1.png" alt="log" class="inline"/>
+<img src="datos.png" alt="consola" class="inline"/>
+<img src="Pantallazo-1.png" alt="log" class="inline"/>
 
 ### Código
 
