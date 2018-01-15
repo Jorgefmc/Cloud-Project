@@ -7,6 +7,8 @@ Archivos incluidos:
   -reducer_proyecto.py:
     Recibe los datos de salida del mapper anterior y realiza los cálculos necesarios para obtener las medias de temperaturas y precipitaciones, mostrándolas por año y el total de las mismas. También crea un log con los mismos datos.
     
+GitHub Page:
+  https://jorgefmc.github.io/Weather-Averages/
     
 Funcionamiento de la aplicación:
   - Funciona con Python 2.7
