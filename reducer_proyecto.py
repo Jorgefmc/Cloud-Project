@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import sys
 import re
@@ -12,25 +13,32 @@ contadorPrepAnual = 0
 precipitacionMediaAnual = 0
 temperaturaMediaAnual = 0
 anio = 0
+actual = 0
 readed = False
+f1=open("log.txt",'w')
+print "Media Temperaturas en ºC: " + "\t" + "Media precipitaciones en mm:"
+f1.write("Media Temperaturas en ºC: \tMedia precipitaciones en mm:\n")
 for line in sys.stdin:
 	temperaturas, precipitaciones = line.split( '\t' )
-	if precipitaciones == "validar":
+	if precipitaciones == "validar\n":
+		
 		if readed:
-			print anio + ": "
-			precipitacionMediaAnual = precipitacionMediaAnual / contadorPrepAnual
-			temperaturaMediaAnual = temperaturaMediaAnual / contadorTempAnual
-			print precipitacionMediaAnual
-			print temperaturaMediaAnual
-			temperaturaMediaAnual = 0
-			precipitacionMediaAnual = 0
-			contadorPrepAnual = 0
-			contadorTempAnual = 0
 			anio = int(temperaturas)
+			if actual != anio:
+				precipitacionMediaAnual = precipitacionMediaAnual / contadorPrepAnual
+				temperaturaMediaAnual = temperaturaMediaAnual / contadorTempAnual
+				print str(actual) + ":\t " + str(temperaturaMediaAnual)+ "\t\t\t" + str(precipitacionMediaAnual)
+				f1.write(str(actual) + ":\t " + str(temperaturaMediaAnual)+ "\t\t\t" + str(precipitacionMediaAnual) + "\n")
+				temperaturaMediaAnual = 0
+				precipitacionMediaAnual = 0
+				contadorPrepAnual = 0
+				contadorTempAnual = 0
+				actual = anio
 
 		else:
-			reader = True
+			readed = True
 			anio = int(temperaturas)
+			actual = anio
 	else:		
 		if precipitaciones != "" and precipitaciones !='\n' and precipitaciones != '\t':
 			precipitaciones = re.sub(",",".", precipitaciones)
@@ -43,7 +51,14 @@ for line in sys.stdin:
 			temperaturaMedia = temperaturaMedia + float(temperaturas)
 			temperaturaMediaAnual = temperaturaMediaAnual + float(temperaturas)
 			contadorTemperaturas = contadorTemperaturas + 1
+			contadorTempAnual = contadorTempAnual + 1
+precipitacionMediaAnual = precipitacionMediaAnual / contadorPrepAnual
+temperaturaMediaAnual = temperaturaMediaAnual / contadorTempAnual
+print str(actual) + ":\t " + str(temperaturaMediaAnual) + "\t\t\t" + str(precipitacionMediaAnual)
+f1.write(str(actual) + ":\t " + str(temperaturaMediaAnual)+ "\t\t\t" + str(precipitacionMediaAnual) + "\n")
 precipitacionMedia = precipitacionMedia / contadorPrecipitaciones
 temperaturaMedia = temperaturaMedia / contadorTemperaturas
-print temperaturaMedia
-print precipitacionMedia
+print "Total:\t " + str(temperaturaMedia) + "\t\t\t" + str(precipitacionMedia)
+f1.write("Total:\t " + str(temperaturaMedia)+ "\t\t\t" + str(precipitacionMedia) + "\n")
+
+

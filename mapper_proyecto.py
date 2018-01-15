@@ -16,8 +16,7 @@ mes = 01
 dia = 01
 comprueba = True
 filename = 'Aemet'
-#f1=open('Aemet2014-01-01.csv', 'r')
-while anio < i.year:
+while anio <= i.year:
 	if os.path.exists('Aemet%04d-%02d-%02d.csv' %(anio, mes, dia)):
 		while mes < 12:
 			while dia < 31:
@@ -28,12 +27,11 @@ while anio < i.year:
 						if linea < 5:
 							re.sub(r'^\W+|\W+$', "", ignore)
 							linea = linea+1
-							if(!finish):
-								print anio + '\t' + "validar"
+							if not finish:
+								print str(anio) + '\t' + "validar"
 								finish = True
 
 						else:
-							#line = re.sub(r'^\W+|\W+$', "", line)
 							columnas = re.split(r"\t", line)
 							temperaturas = re.split(r"\n", columnas[4])
 							precipitaciones = re.split(r"\n", columnas[7])
@@ -55,6 +53,7 @@ while anio < i.year:
 			dia = 01
 		anio = anio + 1
 		mes = 01
+		finish = False
 	else:	
 		if dia < 31:
 			dia = dia + 1
@@ -62,9 +61,10 @@ while anio < i.year:
 			if mes < 12:
 				mes = mes +1
 			else:	
-				if anio < i.year:
+				if anio <= i.year:
 					anio = anio + 1
+					finish = False
 				mes = 01
 			dia = 01
-		#comprueba = False
+
 
